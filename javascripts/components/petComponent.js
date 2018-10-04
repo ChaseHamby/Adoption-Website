@@ -7,7 +7,15 @@ const pets = [
     {name: "Coco", color: "Black", specialSkill: "Burps minimally.", type: "dog", imageUrl: "http://cdn.akc.org/content/article-body-image/funny-pembroke_welsh_corgi.jpg"},
     {name: "Spooky", color: "Brown", specialSkill: "Comfortable in the outdoors for up to eight hours.", type: "cat", imageUrl:"http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg"},
     {name: "Tiger", color: "Golden", specialSkill: "Can read (but cannot understand) Hebrew.", type: "dog", imageUrl: "https://i.etsystatic.com/12330583/d/il/88f153/1511850463/il_340x270.1511850463_ilk9.jpg?version=0"}
-]
+];
+
+// const setPets = (newArray) => {
+//     pets = newArray;
+// };
+
+// const getPetz = () => {
+//     return pets;
+// }
 
 const petsBuilder = () => {
     let domString = '';
@@ -27,4 +35,5 @@ const petsBuilder = () => {
     printToDom(domString);
 };
 
-export {petsBuilder}
+export {pets, petsBuilder}
+// export {setPets, getPetz}
