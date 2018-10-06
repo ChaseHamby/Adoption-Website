@@ -2,12 +2,6 @@ body {
     background-color: aliceblue;
 }
 
-.head {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-
 .row {
   display: flex;
   justify-content: space-evenly;
@@ -15,9 +9,10 @@ body {
 
 .pet-card{
     display: inline-block;
+    height: 600px;
 }
-  
-  .card-img-top {
+
+.card-img-top {
     height: 280px;
     width: 100%;
     object-fit: cover;
@@ -25,10 +20,14 @@ body {
     margin: 0 auto;
 }
 
-  /* #dog {
-    background-color: green;
-  }
+#dog {
+    background-color: lightgreen;
+}
 
-  #cat {
-    background-color: blue;
-  } */
+#cat {
+    background-color: lightblue;
+}
+
+#dino {
+  background-color: yellow;
+}
