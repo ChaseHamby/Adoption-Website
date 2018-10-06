@@ -2,9 +2,20 @@ body {
     background-color: aliceblue;
 }
 
+.head {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .pet-card{
     display: inline-block;
-  }
+}
   
   .card-img-top {
     height: 280px;
@@ -12,4 +23,12 @@ body {
     object-fit: cover;
     object-position: 5 5;
     margin: 0 auto;
+}
+
+  /* #dog {
+    background-color: green;
   }
+
+  #cat {
+    background-color: blue;
+  } */
