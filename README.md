@@ -50,7 +50,7 @@ Type of Pet: xxx
 
 ## Technical Requirements
 
-- You should be using Bootstrap; your project should look like the mockup displayed.
+- You should be using Bootstrap.
 - You should be using ES6 modules.
 - Your code should be clean and readable, with single responsibility principle.
 
