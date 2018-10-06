@@ -14,7 +14,7 @@ const getPets = () => {
     let myRequest = new XMLHttpRequest();
     myRequest.addEventListener('load', executeThisCodeAfterFileLoaded);
     myRequest.addEventListener('error', executeThisCodeIfXhrFails);
-    myRequest.open('GET', '../db/pets.json');
+    myRequest.open('GET', './db/pets.json');
     myRequest.send();
 };
 
