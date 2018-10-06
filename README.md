@@ -48,10 +48,6 @@ Type of Pet: xxx
 - I want to be able to click one of the 3 buttons, then only the cards that are in the category(type) should show.
 - There should be some way for the user to unfilter the results.
 
-
-![MockUp](MockUp.png)
-
-
 ## Technical Requirements
 
 - You should be using Bootstrap; your project should look like the mockup displayed.
